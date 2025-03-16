@@ -9,11 +9,11 @@ public class Exe002 {
 		
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Digite o primeiro número: ");
-		double num1 = teclado.nextInt();
+		double num1 = teclado.nextDouble();
 		System.out.println("O primeiro número digitado foi " + num1);
 		
 		System.out.println("Digite o segundo número: ");
-		double num2 = teclado.nextInt();
+		double num2 = teclado.nextDouble();
 		System.out.println("O segundo número digitado foi " + num2);
 		
 		double multiplicacao = num1 * num2;
