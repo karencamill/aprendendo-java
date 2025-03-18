@@ -11,20 +11,38 @@ public class OperadoresAritmeticos {
 		float m = (n1 + n2) / 2;
 		System.out.println("A média é: " + m);*/
 
+		//DECREMENTO E INCREMENTO
+
 		/*int numero = 3;
 		int valor = 4 + numero--;
 		int resultado = numero;
 		
-		//System.out.println(valor);
+		System.out.println(valor);
 		System.out.println(resultado);*/
+
+		//OPERADORES DE ATRIBUIÇÃO
 		
-		int x = 4;
+		/*int x = 4;
 		x += 2; // x = x + 2
 		System.out.println(x);
 		
 		int y = 9;
 		y *= 3; // x = x * 3
-		System.out.println(y);
+		System.out.println(y);*/
+
+		//CLASSE MATH
+		
+		/*float v = 8.9f;
+		int ar = (int) Math.floor(v); // arredonda para baixo
+		System.out.println(ar);
+		
+		
+		float valor = 5.8f;
+		int arr = (int) Math.ceil(valor); // arredonda para cima
+		System.out.println(arr);*/
+
+		
+		
 		
 	}
 
