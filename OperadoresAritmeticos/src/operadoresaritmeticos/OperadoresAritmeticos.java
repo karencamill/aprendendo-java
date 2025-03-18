@@ -41,8 +41,10 @@ public class OperadoresAritmeticos {
 		int arr = (int) Math.ceil(valor); // arredonda para cima
 		System.out.println(arr);*/
 
-		
-		
+		double ale = Math.random(); // gera um número aleatório
+		int n = (int) (10 + ale * (50-10));
+		System.out.println(n);
+
 		
 	}
 
