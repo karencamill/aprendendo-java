@@ -13,7 +13,7 @@ public class OperadorLogico {
 		
 		//resultado = (x>y && y>z) ?true:false; && as duas expressões tem que ser V
 		//resultado = (x>y || y>z) ?true:false; || uma das expressões tem que ser V
-		resultado = (x>y ^ y==z) ?true:false;
+		resultado = (x>y ^ y==z) ?true:false; // ^ apenas uma das expressões pode ser V
 		System.out.println(resultado);
 		
 	}
