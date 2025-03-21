@@ -8,6 +8,8 @@ public class EstruturasCondicionais {
 		// TODO Auto-generated method stub
 		
 		Scanner teclado = new Scanner(System.in);
+
+		System.out.println("PRIMEIRO EXEMPLO");
 		
 		System.out.println("Digite a primeira nota: ");
 		float n1 = teclado.nextFloat();
@@ -24,13 +26,34 @@ public class EstruturasCondicionais {
 		if (m >= 7) {
 			System.out.println("Aprovadinho!!!!!");
 		}else{
-			System.out.println("Tomou foi dentrooo.");
+			System.out.println("Tomou foi dentrooo.");	
+ 	        }
+
+		System.out.println("SEGUNDO EXEMPLO");
 		
- 	   }
+		System.out.println("Escreva seu ano de nascimento: ");
+		int nasc = teclado.nextInt();
+		
+		int idade = 2025 - nasc;
+		System.out.println(idade);
+		
+		if(idade >= 18) {
+			System.out.println("Maior de idade");
+		}else {
+			System.out.println("Menor de idade");
+		}
+		
+		System.out.println("TERCEIRO EXEMPLO");
+		
+		System.out.println("Digite um valor: ");
+		int valor = teclado.nextInt();
+		
+		if(valor % 2 == 0) {
+			System.out.println("O número é PAR");
+		}else {
+			System.out.println("O número é ÍMPAR");
+		}
+
 		
 	}
 }
-
-
-
-
