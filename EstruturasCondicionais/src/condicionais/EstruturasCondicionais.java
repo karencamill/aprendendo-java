@@ -41,9 +41,9 @@ public class EstruturasCondicionais {
 			System.out.println("Não Vota");
 		}else {
 			if((idade>16 && idade<18) || (idade>70)){
-				System.out.println("Opcional");		
+				System.out.println("Voto Opcional");		
 			} else {
-				System.out.println("Obrigatório");
+				System.out.println("Voto Obrigatório");
 			}
 		}
 		
