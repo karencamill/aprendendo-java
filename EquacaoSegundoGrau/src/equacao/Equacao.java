@@ -21,7 +21,7 @@ public class Equacao {
 		double d = Math.pow(b, 2) - 4 * a * c;
 		System.out.println(d);
 		
-		if (d<0) {
+		if (d < 0) {
 			System.out.println("Não existem raízes reais");
 		}else {
 			System.out.println("Existem raízes reais");
