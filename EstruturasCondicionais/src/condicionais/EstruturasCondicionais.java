@@ -37,10 +37,14 @@ public class EstruturasCondicionais {
 		int idade = 2025 - nasc;
 		System.out.println(idade);
 		
-		if(idade >= 18) {
-			System.out.println("Maior de idade");
+		if(idade < 16) {
+			System.out.println("Não Vota");
 		}else {
-			System.out.println("Menor de idade");
+			if((idade>16 && idade<18) || (idade>70)){
+				System.out.println("Opcional");		
+			} else {
+				System.out.println("Obrigatório");
+			}
 		}
 		
 		System.out.println("TERCEIRO EXEMPLO");
