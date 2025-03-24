@@ -41,6 +41,13 @@ public class EstruturasRepeticoes {
 		
 		} while (resposta.equals("S"));
 		System.out.println("A soma de todos os valores é: " + s);
+
+		// EXEMPLO 4
+
+		for (int c=0; c<=100; c+=10) {
+			System.out.println(c);
+		}
+		
 			
 	     }
 	}
