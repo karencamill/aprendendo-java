@@ -24,10 +24,23 @@ public class EstruturasRepeticoes {
 			f *= c;
 			c--;
 		}		
-		
 		System.out.print(f);
-					
+
+		// EXEMPLO 3
+
+		Scanner teclado = new Scanner(System.in);
+		int n, s=0;
+		String resposta;
+		do {
+		System.out.print("Digite um número: ");
+		n = teclado.nextInt();
+		s += n;// s = s + n;
+		
+		System.out.print("Quer continuar? [S/N] ");
+		resposta = teclado.next();
+		
+		} while (resposta.equals("S"));
+		System.out.println("A soma de todos os valores é: " + s);
+			
 	     }
 	}
-
-
