@@ -19,6 +19,12 @@ public class Vetores {
 		for (int c=0; c<mes.length; c++) {
 			System.out.println("O mês de " + mes[c]+ " tem " + tot[c]+ " dias ao todo." );
 		}
+
+		//EXEMPLO 03
+		double v[] = {4.2, 1.9, -8, 6};
+			for(double valor: v){
+			System.out.print(valor + " ");
+		}
 		
 	}
 }
