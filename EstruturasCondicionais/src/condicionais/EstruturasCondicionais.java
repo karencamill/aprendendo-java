@@ -69,7 +69,6 @@ public class EstruturasCondicionais {
 			case 1:
 				tipo = "Saci";
 				break;
-				
 			case 2:
 				tipo = "Bípede";
 				break;
@@ -86,6 +85,5 @@ public class EstruturasCondicionais {
 				tipo = "ET";
 		}		
 		System.out.println(tipo);
-
 	}
 }
