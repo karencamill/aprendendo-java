@@ -6,7 +6,7 @@ public class JoguinhoDoGenio {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		// TESTANDO
 		Scanner teclado = new Scanner(System.in);
 		
 		String resultado;
